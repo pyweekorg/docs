@@ -25,4 +25,5 @@ PyWeek help and resources
 
     rules
     help
+    packaging
     conditions
