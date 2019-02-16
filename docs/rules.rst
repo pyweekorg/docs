@@ -30,9 +30,7 @@ During the challenge, competitors are encouraged to hang out on IRC and
 post diary entries (diaries are supplied as part of the challenge).
 
 By signing up to the challenge, you are agreeing to abide by
-the system `conditions of use`__.
-
-__ http://media.pyweek.org/static/conditions.html
+the system :doc:`conditions of use <conditions>`.
 
 
 2. Entries are to be written "from scratch"
