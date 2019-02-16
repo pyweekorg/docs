@@ -1,0 +1,48 @@
+@font-face {
+    font-family: RosesAreRed;
+    src: url(roses-are-ff0000.woff) format('woff');
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+@media screen {
+    h1.logo {
+        opacity: 0;
+    }
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+h1, h2, h3 {
+    font-family: RosesAreRed !important;
+}
+
+h1 a,
+h2 a,
+h3 a {
+    text-decoration: none;
+}
+
+div.body h1 {
+    font-size: 24pt;
+}
+
+div.body h2 {
+    font-size: 18pt;
+    margin: 2em 0 0.5em;
+    line-height: 1.4em;
+}
+
+
+div.admonition p.admonition-title {
+    font-family: RosesAreRed !important;
+}
+
+div.admonition {
+    border: none;
+    padding: 1.5em;
+}
