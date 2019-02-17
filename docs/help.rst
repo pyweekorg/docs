@@ -8,7 +8,7 @@ Using the PyWeek Website
 How the heck do I write a game?
 -------------------------------
 
-There's some great tutorials out there and Al Sewigart, the author of the
+There's some great tutorials out there and Al Sweigart, the author of the
 free book *Invent Your Own Computer Games with Python* has compiled a `list
 of the top 10`__.
 
@@ -186,7 +186,7 @@ To upload a file:
 3. select "Upload File" or "Upload Screenshot" in the sidebar, and
 4. fill out the "Upload a File" form.
 
-See the separate section `9. How to submit your entry`_ for more information
+See the separate section `How to submit your entry`_ for more information
 about submitting your entry to the site.
 
 

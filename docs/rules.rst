@@ -175,6 +175,8 @@ A list of good, free art resources go to the PyGame website wiki (and
 contribute!) at http://www.pygame.org/wiki/resources
 
 
+.. _final-submission:
+
 7. Your Final Submission
 ------------------------
 

@@ -24,6 +24,7 @@ Visit https://pyweek.org/ to participate.
     rules
     help
     packaging
+    diaries
 
 
 .. toctree::

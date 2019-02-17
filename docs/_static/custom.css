@@ -26,14 +26,19 @@ h3 a {
 div.body h1 {
     font-size: 20pt;
     margin: 26px 0 1.5em;
+    color: #268;
 }
 
 div.body h2 {
     font-size: 14pt;
     margin: 2em 0 0.5em;
     line-height: 1.4em;
+    color: #268;
 }
 
+div.body h3 {
+    font-size: 100%;
+}
 
 div.admonition p.admonition-title {
     font-family: RosesAreRed !important;
