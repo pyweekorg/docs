@@ -9,12 +9,8 @@ body {
 
 @media screen {
     h1.logo {
-        opacity: 0;
+        display: none;
     }
-}
-
-h1 {
-    font-size: 1.2em;
 }
 
 h1, h2, h3 {
@@ -28,11 +24,12 @@ h3 a {
 }
 
 div.body h1 {
-    font-size: 24pt;
+    font-size: 20pt;
+    margin: 26px 0 1.5em;
 }
 
 div.body h2 {
-    font-size: 18pt;
+    font-size: 14pt;
     margin: 2em 0 0.5em;
     line-height: 1.4em;
 }
@@ -40,9 +37,33 @@ div.body h2 {
 
 div.admonition p.admonition-title {
     font-family: RosesAreRed !important;
+    font-size: 14pt;
 }
 
 div.admonition {
     border: none;
     padding: 1.5em;
+    border-radius: 6px;
+}
+
+.admonition.tip {
+    background-color: #d8f0ff;
+}
+
+.toctree-wrapper .caption-text {
+    display: block;
+    font-family: RosesAreRed !important;
+    font-size: 14pt;
+    margin: 2em 0 0.5em;
+    line-height: 1.4em;
+}
+
+div.sphinxsidebar h3 {
+    font-size: 12pt;
+    margin-top: 2em;
+}
+
+.sphinxsidebar .caption {
+    margin: 1.5em 0 -0.5em;
+    color: #888;
 }

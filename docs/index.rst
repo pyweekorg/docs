@@ -17,13 +17,18 @@ Why participate in PyWeek? There are many reasons:
 Visit https://pyweek.org/ to participate.
 
 
-PyWeek help and resources
--------------------------
-
 .. toctree::
     :maxdepth: 2
+    :caption: Help and Resources
 
     rules
     help
     packaging
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Fine Print
+
     conditions
+    coc

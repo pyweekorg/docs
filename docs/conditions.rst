@@ -2,7 +2,7 @@
 Conditions of Use
 =================
 
-:revision date: 2005/07/18
+:revision date: 2019-02-17
 
 
 1. About these Conditions
@@ -16,6 +16,7 @@ following terms and conditions.
 governed by the laws of Victoria, Australia where the PyWeek Organisers
 are located.
 
+
 2. What the PyWeek system does
 ==============================
 
@@ -25,6 +26,10 @@ facilitates the running of the PyWeek challenge.
 
 3. How You Promise to Behave in this Environment
 ================================================
+
+3.0 When using the PyWeek website you agree to abide by the :doc:`coc`,
+which describes appropriate forms of communication and forbids
+harrassment of any kind.
 
 3.1 This agreement is a software license. Under this license, only one
 person is allowed to log in under a single username and password. You
