@@ -19,12 +19,20 @@ Visit https://pyweek.org/ to participate.
 
 .. toctree::
     :maxdepth: 2
-    :caption: Help and Resources
+    :caption: Competition Rules
 
     rules
+
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Help and Resources
+
     help
     packaging
     diaries
+    libraries
+    resources
 
 
 .. toctree::
