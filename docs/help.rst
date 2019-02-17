@@ -5,8 +5,8 @@ Using the PyWeek Website
 :date: 2019-02-16
 
 
-0. How the heck do I write a game?
-----------------------------------
+How the heck do I write a game?
+-------------------------------
 
 There's some great tutorials out there and Al Sewigart, the author of the
 free book *Invent Your Own Computer Games with Python* has compiled a `list
@@ -14,8 +14,8 @@ of the top 10`__.
 
 __ http://inventwithpython.com/blog/2010/09/01/the-top-10-pygame-tutorials/
 
-1. So you want to enter as an individual?
------------------------------------------
+So you want to enter as an individual?
+--------------------------------------
 
 You should log into the PyWeek site and go to the latest challenge in the
 sidebar. Then in the the sidebar you should see "Register Entry".
@@ -28,8 +28,8 @@ You may add diary entries and upload files or screenshots to this entry
 (the latter only once the challenge has started).
 
 
-2. So you want to enter as a team?
-----------------------------------
+So you want to enter as a team?
+-------------------------------
 
 This step should be performed by the team leader.
 
@@ -48,8 +48,8 @@ Only the team leader will be able to manage the team entry (change its
 name or membership listing).
 
 
-3. Editing your personal details
---------------------------------
+Editing your personal details
+-----------------------------
 
 Once you've logged in use the "Edit Profile" link in the menu
 to configure how your profile is displayed on the PyWeek site.
@@ -64,26 +64,26 @@ Use the "Account Settings" link to set your e-mail preferences or change your
 password.
 
 
-4. Don't want an Entry any more?
---------------------------------
+Don't want an Entry any more?
+-----------------------------
 
 Just ask Daniel to remove it. Mail him at daniel@pyweek.org
 
 
-5. Want to change Team Leaders?
--------------------------------
+Want to change Team Leaders?
+----------------------------
 
 Just ask Daniel to change it. Mail him at daniel@pyweek.org
 
 
-6. Want to join a team?
------------------------
+Want to join a team?
+--------------------
 
 Ask the team leader of that team to add you.
 
 
-7. What to do before the challenge starts
------------------------------------------
+What to do before the challenge starts
+--------------------------------------
 
 1. Make sure you have working versions of the libraries you're going to use.
 2. Make sure you can build packages to submit as your final submission (if
@@ -94,8 +94,8 @@ Ask the team leader of that team to add you.
    for you.
 
 
-8. What do do during the challenge
-----------------------------------
+What do do during the challenge
+-------------------------------
 
 1. Plan on spending at least several hours packaging and testing your
    packaging.
@@ -107,8 +107,8 @@ Ask the team leader of that team to add you.
 5. Hang around in the IRC channel, irc.freenode.net channel #pyweek
 
 
-9. How to submit your entry
----------------------------
+How to submit your entry
+------------------------
 
 Visit your entry's page any time during the challenge and up to 24 hours
 after the finish to upload your file(s). You may upload as many files
@@ -119,8 +119,8 @@ there is an entire 24-hour period in which to upload your files after
 the challenge finishes there will be no leniency for failure to upload.
 
 
-10. What to submit as your entry
---------------------------------
+What to submit as your entry
+----------------------------
 
 Consider the advice at http://www.pygame.org/wiki/distributing
 
@@ -154,15 +154,15 @@ __ http://www.fsf.org/licensing/licenses
 __ http://media.pyweek.org/static/pyweek-upload.py
 
 
-11. When does PyWeek run?
--------------------------
+When does PyWeek run?
+---------------------
 
 PyWeek runs every 6 months in Spring/Autumn. This usually works out to be
 around the first week of April and September.
 
 
-12. When can I sign up?
------------------------
+When can I sign up?
+-------------------
 
 Registration for PyWeek opens 45 days before the challenge start date
 and remains open until the very end of the week-long challenge.
@@ -170,8 +170,8 @@ and remains open until the very end of the week-long challenge.
 Yes, you can sign up during the week.
 
 
-13. How do I upload a file?
----------------------------
+How do I upload a file?
+-----------------------
 
 You may upload a file any time during the running of the challenge (ie. after the
 start date).
@@ -190,8 +190,8 @@ See the separate section `9. How to submit your entry`_ for more information
 about submitting your entry to the site.
 
 
-14. How do I post a diary entry?
---------------------------------
+How do I post a diary entry?
+----------------------------
 
 To post an entry:
 
@@ -203,8 +203,8 @@ To post an entry:
 Your entry will automatically be listed on the front page of the site.
 
 
-15. What's PyWeek all about?
-----------------------------
+What's PyWeek all about?
+------------------------
 
 Richard__ speaks:
 
