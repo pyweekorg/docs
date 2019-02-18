@@ -71,6 +71,6 @@ We will investigate promptly and if necessary will take appropriate action.
 This could include:
 
 * banning a violator of the Code of Conduct from PyWeek
-* passing on details of the incident to authorities or employers
+* passing on details of the incident to authorities
 
 We will provide you with a written statement of the outcome, whatever it is.
