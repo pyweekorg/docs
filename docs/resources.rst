@@ -13,6 +13,10 @@ The following is an attempt to curate the suggestions.
 Articles and tutorials
 ----------------------
 
+
+- `Fun and Games in Python
+  <http://mauveweb.co.uk/posts/2017/08/fun-and-games.html>`_ - a history of
+  PyWeek, Pygame, Pyglet and more, with analysis on what makes games fun
 - `How to be Successful at PyWeek <https://andrewkelley.me/post/pyweek-success.html>`__
 - Some `Game Development Tips & Tricks <http://www.nerdparadise.com/tech/python/pygame/tipsandtricks/>`__
 -  `How to fail at
