@@ -72,7 +72,8 @@ Video Tutorials
 3D Models
 ---------
 
-* `Google Poly <https://poly.google.com/>`_  has many CC low-poly models (but
+* `Models by Quaternius <http://quaternius.com/assets.html>`_
+* `Google Poly <https://poly.google.com/>`_   has many CC low-poly models (but
   it also has other 3D content created by Tilt Brush and other tools, which are
   not useful in games.
 
