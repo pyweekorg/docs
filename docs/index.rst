@@ -33,6 +33,7 @@ Visit https://pyweek.org/ to participate.
     diaries
     libraries
     resources
+    cli
 
 
 .. toctree::
