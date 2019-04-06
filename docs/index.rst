@@ -22,6 +22,7 @@ Visit https://pyweek.org/ to participate.
     :caption: Competition Rules
 
     rules
+    changelog
 
 
 .. toctree::

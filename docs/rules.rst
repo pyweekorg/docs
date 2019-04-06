@@ -36,6 +36,26 @@ the system :doc:`conditions of use <conditions>`.
 2. Entries are to be written "from scratch"
 -------------------------------------------
 
+You may not use any existing personal non-public codebases, even for reference.
+
+You may use an existing library if:
+
+1. It contains no game logic:
+
+* No hard-coded artwork/sound/plot/dialogue choices
+
+2. It is also made available and accessible to other entrants:
+
+* It is documented. This must include, at a minimum:
+
+  * API documentation for all APIs that you use
+  * An overview or examples that express "the value proposition" - what a user
+    can expect to find in the libray or accomplish with it.
+* It was released in its current form more than 30 days before the competition.
+* It is released under an `OSI-approved open source license`_.
+
+.. _`OSI-approved open source license`: https://opensource.org/licenses/alphabetical
+
 The intent of this rule is to provide a level playing-field for all
 entrants. This has a number of aspects:
 
@@ -57,9 +77,6 @@ is OK to use, as are PIL, PyOpenGL, PyODE, PyOGRE, etc -- all the libraries
 listed in the `python.org PythonGameLibraries wiki page`__.
 
 .. __: http://wiki.python.org/moin/PythonGameLibraries
-
-You are **not** allowed to use any **exising personal codebases**. This
-includes using those codebases as a point of reference.
 
 .. tip::
 
@@ -233,6 +250,11 @@ the duration of the challenge.
 
 9. Target platform
 ------------------
+
+Entries must run with a supported version of a Python interpreter. Python
+releases that `are considered end-of-life`__ are forbidden.
+
+.. __: https://devguide.python.org/devcycle/#end-of-life-branches
 
 All entries must run in Python on the latest available libraries (ie.
 the latest release of PyGame, PyOpenGL, etc).
