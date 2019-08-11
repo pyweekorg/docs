@@ -105,3 +105,74 @@ opaque. Pyglet can handle reading and saving the colour buffer though.
             # re-enable alpha channel transfer
             gl.glPixelTransferf(gl.GL_ALPHA_BIAS, 0.0)
 
+
+ModernGL
+--------
+
+For `ModernGL <https://moderngl.readthedocs.io/>`_ the raw OpenGL calls are
+wrapped in an object-oriented API. You will need a library to convert the raw
+image data to a graphics file format.
+
+Here is the code to do that using Pygame:
+
+
+.. code-block:: python
+
+    import datetime
+    import pygame.image
+
+
+    def screenshot(ctx: moderngl.Context):
+        """Take a screenshot."""
+        now = datetime.datetime.now()
+        filename = f'screenshot_{now:%Y-%m-%d_%H:%M:%S.%f}.png'
+
+        # You can use this code to take a screenshot of any FBO but
+        # the default framebuffer, ie. the screen, is ctx.screen.
+        fbo = ctx.screen
+
+        # Read RGB data back from the screen
+        data = fbo.read(components=3)
+
+        # Make an RGB Pygame Surface
+        surf = pygame.image.fromstring(
+            data,
+            (fbo.width, fbo.height),
+            'RGB'
+        )
+
+        # Save Pygame surface to a file
+        pygame.image.save(surf, filename)
+
+
+And instead using Pillow:
+
+
+.. code-block:: python
+
+    import datetime
+    from PIL import Image
+
+
+    def screenshot(ctx: moderngl.Context):
+        """Take a screenshot."""
+        now = datetime.datetime.now()
+        filename = f'screenshot_{now:%Y-%m-%d_%H:%M:%S.%f}.png'
+
+        # You can use this code to take a screenshot of any FBO but
+        # the default framebuffer, ie. the screen, is ctx.screen.
+        fbo = ctx.screen
+
+        # Read RGB data back from the screen
+        data = fbo.read(components=3)
+
+        # Make an RGB PIL image
+        img = Image.frombytes(
+            'RGB',
+            (fbo.width, fbo.height),
+            data,
+        )
+
+        # Save Image to a file
+        img.save(filename, format='png')
+
