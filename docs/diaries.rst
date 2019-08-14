@@ -111,7 +111,8 @@ ModernGL
 
 For `ModernGL <https://moderngl.readthedocs.io/>`_ the raw OpenGL calls are
 wrapped in an object-oriented API. You will need a library to convert the raw
-image data to a graphics file format.
+image data to a graphics file format. The buffer data will need to be
+vertically flipped.
 
 Here is the code to do that using Pygame:
 
@@ -120,6 +121,7 @@ Here is the code to do that using Pygame:
 
     import datetime
     import pygame.image
+    import pygame.transform
 
 
     def screenshot(ctx: moderngl.Context):
@@ -140,6 +142,9 @@ Here is the code to do that using Pygame:
             (fbo.width, fbo.height),
             'RGB'
         )
+
+        # Vertically flip the image
+        surf = pygame.transform.flip(surf, False, True)
 
         # Save Pygame surface to a file
         pygame.image.save(surf, filename)
@@ -172,6 +177,9 @@ And instead using Pillow:
             (fbo.width, fbo.height),
             data,
         )
+
+        # Vertically flip the image
+        image = image.transpose(Image.FLIP_TOP_BOTTOM)
 
         # Save Image to a file
         img.save(filename, format='png')
