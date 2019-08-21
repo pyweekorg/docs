@@ -109,9 +109,23 @@ Panda3D is a 3D engine for Python or C++, developed by CMU in partnership with
 Disney.
 
 
+|pyxel| Pyxel
+-------------
+
+.. |pyxel| image:: _static/pyxel.png
+
+:Website: https://github.com/kitao/pyxel
+
+Pyxel is a deliberately restricted engine for retro games. It includes sprite,
+tile, sound and music editors, and a packaging tool to produce standalone
+executables.
+
+
 Others
 ------
 
+* `wasabi2d <https://github.com/lordmauve/wasabi2d>`_ - a 2D graphics framework
+  built on ModernGL and Pygame.
 * `pysdl2-harness <https://github.com/reidrac/pysdl2-harness>`__ -
   some simple classes to make working with pysdl2 easier. Somewhat
   inspired by pyglet and trying to hide all the "ugly" stuff of SDL2
