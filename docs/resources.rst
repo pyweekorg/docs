@@ -102,6 +102,7 @@ Content Creation
 Music
 -----
 
+-   http://ccmixter.org/
 -  `Royalty free music by inkaudio <http://www.inkaudio.com>`__
 -  `Random music generator <http://fakemusicgenerator.com>`__
 
