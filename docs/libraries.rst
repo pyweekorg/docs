@@ -162,3 +162,15 @@ Others
 
 * `PyBox2D <https://github.com/pybox2d/pybox2d>`_ - 2D physics. This is now
   much less well maintained than PyMunk, and the documentation is lacking.
+
+
+GUI
+===
+
+* `pyimgui <https://pyimgui.readthedocs.io>` - Python bindings for the
+  *dear Imgui* UI framework - works with several OpenGL based frameworks and
+  also Pygame.
+
+* `PGU <https://github.com/parogers/pgu>` - a collection of utility code for
+  working with Pygame, including a complete UI framework and basic HTML
+  rendering.
