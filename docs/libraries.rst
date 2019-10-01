@@ -167,10 +167,10 @@ Others
 GUI
 ===
 
-* `pyimgui <https://pyimgui.readthedocs.io>` - Python bindings for the
+* `pyimgui <https://pyimgui.readthedocs.io>`_ - Python bindings for the
   *dear Imgui* UI framework - works with several OpenGL based frameworks and
   also Pygame.
 
-* `PGU <https://github.com/parogers/pgu>` - a collection of utility code for
+* `PGU <https://github.com/parogers/pgu>`_ - a collection of utility code for
   working with Pygame, including a complete UI framework and basic HTML
   rendering.
