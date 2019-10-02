@@ -2,7 +2,7 @@
 The Rules
 ---------
 
-:revision date: 2019-02-16
+:revision date: 2020-01-23
 
 
 The PyWeek challenge:
@@ -165,6 +165,9 @@ shouldn't develop artwork beforehand that you intend to use during the
 challenge *unless* you also make that artwork freely available to all
 other entrants.
 
+Any diagrams and concept art created during the theme voting week should not
+form part of your submission.
+
 There should be absolutely no breach of licensing. You can't just
 cut-n-paste in artwork from The Simpsons (TM).
 
@@ -185,16 +188,7 @@ upload multiple final submissions - but only the last one will actually
 be used for judging.
 
 Your entry **must** include all code and data required for running, and
-instructions about how to run the entry. Consider using py2exe to
-generate a Windows executable (though also recognise that some people
-don't have Windows.) It is recommended that you include 3rd-party
-libraries if that's reasonable (ie. if they're pure-Python and don't
-bloat out your entry size unreasonably).
-
-We recommend you download the `Skellington 1.9`__ package and use that as the starting-point
-for your game.
-
-__ http://media.pyweek.org/static/skellington-1.9.zip
+instructions about how to run the entry.
 
 Your entry **must** include all source code. You retain ownership of all source
 code and artwork you produce. The Free Software Foundation has a handy
@@ -208,10 +202,7 @@ game and its source through the PyWeek website (http://pyweek.org/),
 BitTorrent and any other protocol deemed necessary by the PyWeek
 organisers.
 
-Please read the `entrant help page`__ for some guidelines about how to
-package your entry.
-
-__ http://media.pyweek.org/static/help.html
+See :doc:`packaging` for some guidelines about how to package your entry.
 
 
 8. Allowed Documentation
@@ -219,13 +210,13 @@ __ http://media.pyweek.org/static/help.html
 
 Any online documentation may be used. This encompasses anything that
 might be viewed in a web browser and found by Google by any of the
-challenge entrants. Mailing lists and bulletin boards count.
+challenge entrants.
 
-If online documentation includes code snippets, that's ok, just don't
-cut-n-paste the code directly into your game.
+If online documentation includes code snippets, that's ok, but do not
+copy-and-paste whole example games.
 
-If the online documentation is only code (ie. it's a web CVS viewer, or
-similar) then it's not OK.
+If the online documentation is only code (ie. it's deep within a GitHub repo,
+or similar) then it's not OK - see Rule 2.
 
 Any existing code you've written should be considered out-of-bounds for
 the duration of the challenge.
@@ -234,14 +225,15 @@ the duration of the challenge.
 9. Target platform
 ------------------
 
-All entries must run in Python on the latest available libraries (ie.
-the latest release of PyGame, PyOpenGL, etc).
+Entries must run using the latest version of Python. End-of-life versions of
+Python are forbidden. See `the Python Dev Guide
+<https://devguide.python.org/#status-of-python-branches>`_ for which Python
+versions are allowed.
 
-This doesn't mean you have to develop on those latest versions, just
-that any code you produce must work on those versions.
+Entries should specify requirements in a ``requirements.txt``, or otherwise
+must run with the latest released versions of libraries.
 
 If you are the maintainer of a library, we would ask that you make all
-efforts to not sabotage existing users of your library. It's probably
-safer to wait until after the challenge to release the new version, and
-use the old version for the challenge.
-
+efforts to not sabotage existing users of your library. Please be diligent
+about backwards compatibility, providing changelogs, and versioning your
+releases.
