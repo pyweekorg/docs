@@ -225,8 +225,8 @@ the duration of the challenge.
 9. Target platform
 ------------------
 
-Entries must run using the latest version of Python. End-of-life versions of
-Python are forbidden. See `the Python Dev Guide
+Entries must run using the latest version of Python. Entries must not require
+end-of-life versions of Python. See `the Python Dev Guide
 <https://devguide.python.org/#status-of-python-branches>`_ for which Python
 versions are allowed.
 
