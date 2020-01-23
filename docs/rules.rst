@@ -237,3 +237,8 @@ If you are the maintainer of a library, we would ask that you make all
 efforts to not sabotage existing users of your library. Please be diligent
 about backwards compatibility, providing changelogs, and versioning your
 releases.
+
+If you add features to your library leading up to the challenge, please take
+great care to ensure that other entrants have a reasonable opportunity to
+learn about and use these features. This includes updating the documentation
+and announcing the feature in a changelog or release announcement.
