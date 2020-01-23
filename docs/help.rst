@@ -238,9 +238,7 @@ including Lucio Torre, Juan Martinez, and Lex Toumbourou.
 
 The participation in PyWeek has been pretty steady since the start, with
 ups and downs depending on how widely the challenge is promoted (or
-whether I manage to schedule it particularly badly):
-
-.. image:: participation-graph.png
+whether I manage to schedule it particularly badly).
 
 The first challenge was announced about 3 months out, and a bunch of
 people registered that didn't return for the challenge, hence the low
