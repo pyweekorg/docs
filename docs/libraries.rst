@@ -51,13 +51,14 @@ loop and tweening.
 :Website: http://pyglet.org/
 :Documentation: https://pyglet.readthedocs.io/
 
-Pyglet is a game framework that offers functionality for 2D graphics and text
-rendering using OpenGL. It also has complete OpenGL bindings, and can be used
-as the basis of 3D games.
+pyglet provides hardware accelerated rendering for sprites, drawing text,
+audio playback, and joystick support. Sprites can be static or animated, 
+rotated, scaled, and support transparency. pyglet is build on OpenGL,
+so the full OpenGL bindings are also availble for use in 3D games.
 
-It also has spatial 3D audio using AVBin_.
+FFmpeg_ is optionally supported for compressed audio and video playback. 
 
-.. _AVBin: http://avbin.github.io/AVbin/Home/Home.html
+.. FFmpeg: https://pyglet.readthedocs.io/en/stable/programming_guide/media.html#ffmpeg-installation
 
 
 |coco| Cocos2D
