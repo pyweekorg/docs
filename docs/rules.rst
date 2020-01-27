@@ -46,11 +46,11 @@ are not prevented from using them once aware of them.
 1. You may not use code created before the competition except under the
    following conditions. This includes using the code as a point of reference.
 
-2. You may not use directly include art, sound, music, writing or other data
+2. You may not directly include art, sound, music, writing or other data
    created before the competition, except under the following conditions. You
    may however use it as a point of reference, ie. as "concept art".
 
-2. You may use libraries or data sets that were created before the competition
+3. You may use libraries or data sets that were created before the competition
    if and only if
 
    a. They have been published to a public searchable index such as PyPI,
@@ -65,7 +65,7 @@ are not prevented from using them once aware of them.
       and requires customisation with Python code in order to define these
       qualities and behaviours.
 
-3. You may use code posted in blog entries if and only if
+4. You may use code posted in blog entries if and only if
 
    a. The blog entry was published to the Internet at least 30 days before
       the competition.
@@ -76,25 +76,14 @@ are not prevented from using them once aware of them.
       as clause 2.2.d, unless these are provided as examples and you replace
       them.
 
-4. You may use graphics, sound and music created before the competition if
+5. You may use graphics, sound and music created before the competition if
 
    a. They were published to the Internet at least 30 days before the
       competition.
    b. **And** the work is licensed under an OSI-approved or Creative Commons
       license, or is public domain.
-   b. **And** they include the "source" files, ie. a preferred form for
-      editing. For example, a work created in Blender
-
-.. tip::
-
-    Release the code well before the comp as part of a tutorial. Then you may
-    refer to it -- and so may the other competitors.
-
-A great resource is the `pygame.org cookbook`__. It is perfectly
-acceptable to cut-n-paste code from the cookbook, as that code is released
-and should be considered equivalent to a library.
-
-.. __: http://www.pygame.org/wiki/CookBook
+   c. **And** you use only the files published. For example, you may not
+      publish only PNG files but use source SVG files in your game.
 
 This is a Python programming challenge, but that doesn't preclude the use
 of supporting languages (eg. C or C++ libraries, Javascript in HTML web
