@@ -53,7 +53,7 @@ loop and tweening.
 
 pyglet provides hardware accelerated rendering for sprites, drawing text,
 audio playback, and joystick support. Sprites can be static or animated, 
-rotated, scaled, and support transparency. pyglet is build on OpenGL,
+rotated, scaled, and support transparency. pyglet is built on OpenGL,
 so the full OpenGL bindings are also availble for use in 3D games.
 
 FFmpeg_ is optionally supported for compressed audio and video playback. 
