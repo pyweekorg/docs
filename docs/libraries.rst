@@ -58,7 +58,7 @@ so the full OpenGL bindings are also availble for use in 3D games.
 
 FFmpeg_ is optionally supported for compressed audio and video playback. 
 
-.. FFmpeg: https://pyglet.readthedocs.io/en/stable/programming_guide/media.html#ffmpeg-installation
+.. _FFmpeg: https://pyglet.readthedocs.io/en/stable/programming_guide/media.html#ffmpeg-installation
 
 
 |coco| Cocos2D
