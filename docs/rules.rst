@@ -2,7 +2,7 @@
 The Rules
 ---------
 
-:revision date: 2020-01-23
+:revision date: 2020-01-27
 
 
 The PyWeek challenge:
@@ -36,30 +36,54 @@ the system :doc:`conditions of use <conditions>`.
 2. Entries are to be written "from scratch"
 -------------------------------------------
 
-The intent of this rule is to provide a level playing-field for all
-entrants. This has a number of aspects:
+The intent of this rule is to provide a level playing-field for all entrants.
+The short version is this: any resources you prepare before the competition
+must be made both *available* and *accessible* to all other entrants,
+regardless of whether they were created by you or by others. "Available" means
+that they must be published in good time. "Accessible" means making sure others
+are not prevented from using them once aware of them.
 
-1. You can't have a personal "library" codebase that you use during
-   the competition,
-2. If you do have a library you must release it within a reasonable
-   amount of time (at least 1 month) before the challenge starts so
-   that others may have reasonable opportunity of using the library, and
-3. If you do release a new version of a library around the time of the
-   challenge, we would ask that you make all efforts to not sabotage
-   existing users of your library (see rule `9. Target Platform`_.)
-   It's probably safer to wait until after the competition to release
-   the new version, and use the old version for the competition.
+1. You may not use code created before the competition except under the
+   following conditions. This includes using the code as a point of reference.
 
-You are allowed to use existing libraries that have been available
-for at least one month before the challenge (and are well documented).
-The libraries must not implement any game logic. The entire PyGame library
-is OK to use, as are PIL, PyOpenGL, PyODE, PyOGRE, etc -- all the libraries
-listed in the `python.org PythonGameLibraries wiki page`__.
+2. You may not use directly include art, sound, music, writing or other data
+   created before the competition, except under the following conditions. You
+   may however use it as a point of reference, ie. as "concept art".
 
-.. __: http://wiki.python.org/moin/PythonGameLibraries
+2. You may use libraries or data sets that were created before the competition
+   if and only if
 
-You are **not** allowed to use any **exising personal codebases**. This
-includes using those codebases as a point of reference.
+   a. They have been published to a public searchable index such as PyPI,
+      GitHub, or this handbook for at least 30 days before the competition.
+   b. **And** they are licensed under an `OSI-approved open source license
+      <https://opensource.org/licenses>`_, or is public domain.
+   c. **And** the index page (eg. README/PyPI page) contains, or links to,
+      a documentation resource that describes the features of the library and
+      contains thorough API documentation.
+   d. **And** the library does not contain game logic, ie. it is agnostic about
+      theme, backstory, character types, game objects, behaviours, and so on,
+      and requires customisation with Python code in order to define these
+      qualities and behaviours.
+
+3. You may use code posted in blog entries if and only if
+
+   a. The blog entry was published to the Internet at least 30 days before
+      the competition.
+   b. **And** it is specified or implied that the code is free to redistribute,
+      eg. that it is public domain.
+   c. **And** the blog entry contains prose describing the purpose of the code.
+   d. **And** the code does not contain game logic, under the same definition
+      as clause 2.2.d, unless these are provided as examples and you replace
+      them.
+
+4. You may use graphics, sound and music created before the competition if
+
+   a. They were published to the Internet at least 30 days before the
+      competition.
+   b. **And** the work is licensed under an OSI-approved or Creative Commons
+      license, or is public domain.
+   b. **And** they include the "source" files, ie. a preferred form for
+      editing. For example, a work created in Blender
 
 .. tip::
 
