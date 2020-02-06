@@ -2,7 +2,7 @@
 The Rules
 ---------
 
-:revision date: 2020-01-27
+:revision date: 2020-02-06
 
 
 The PyWeek challenge:
@@ -40,54 +40,40 @@ The intent of this rule is to provide a level playing-field for all entrants.
 The short version is this: any resources you prepare before the competition
 must be made both *available* and *accessible* to all other entrants,
 regardless of whether they were created by you or by others. "Available" means
-that they must be published in good time. "Accessible" means making sure others
-are not prevented from using them once aware of them.
+that they must be published in good time, in a place where other entrants might
+discover them. "Accessible" means making sure others are not prevented from
+using them once aware of them.
 
 1. You may not use code created before the competition except under the
-   following conditions. This includes using the code as a point of reference.
+   conditions of clause 2.2 and 2.3. This includes using the code as a point of
+   reference.
 
-2. You may not directly include art, sound, music, writing or other data
-   created before the competition, except under the following conditions. You
-   may however use it as a point of reference, ie. as "concept art".
-
-3. You may use libraries or data sets that were created before the competition
+2. You may use libraries that were created before the competition
    if and only if
 
-   a. They have been published to a public searchable index such as PyPI,
-      GitHub, or this handbook for at least 30 days before the competition.
-   b. **And** they are licensed under an `OSI-approved open source license
-      <https://opensource.org/licenses>`_, or is public domain.
-   c. **And** the index page (eg. README/PyPI page) contains, or links to,
+   a. they have been published to a public searchable index such as PyPI,
+      GitHub, or this handbook for at least 30 days before the competition;
+      and,
+   b. they are licensed under an `OSI-approved open source license
+      <https://opensource.org/licenses>`_, or are public domain; and,
+   c. the index page (eg. README/PyPI page) contains, or links to,
       a documentation resource that describes the features of the library and
-      contains thorough API documentation.
-   d. **And** the library does not contain game logic, ie. it is agnostic about
+      contains thorough API documentation; and,
+   d. the library does not contain game logic, ie. it is agnostic about
       theme, backstory, character types, game objects, behaviours, and so on,
       and requires customisation with Python code in order to define these
       qualities and behaviours.
 
-4. You may use code posted in blog entries if and only if
+3. You may use code posted in blog entries if and only if
 
    a. The blog entry was published to the Internet at least 30 days before
-      the competition.
-   b. **And** it is specified or implied that the code is free to redistribute,
-      eg. that it is public domain.
-   c. **And** the blog entry contains prose describing the purpose of the code.
-   d. **And** the code does not contain game logic, under the same definition
-      as clause 2.2.d, unless these are provided as examples and you replace
-      them.
-
-5. You may use graphics, sound and music created before the competition if
-
-   a. They were published to the Internet at least 30 days before the
-      competition.
-   b. **And** the work is licensed under an OSI-approved or Creative Commons
-      license, or is public domain.
-   c. **And** you use only the files published. For example, you may not
-      publish only PNG files but use source SVG files in your game.
-
-This is a Python programming challenge, but that doesn't preclude the use
-of supporting languages (eg. C or C++ libraries, Javascript in HTML web
-pages, and so on).
+      the competition; and,
+   b. it is specified or implied that the code is free to redistribute,
+      eg. that it is public domain; and,
+   c. the blog entry contains prose describing the purpose of the code; and,
+   d. the code does not contain game logic, under the same definition
+      as clause 2.2.d, unless the logic is provided as an example and you
+      replace it.
 
 
 3. The time limit is 1 week
@@ -178,17 +164,28 @@ shouldn't develop artwork beforehand that you intend to use during the
 challenge *unless* you also make that artwork freely available to all
 other entrants.
 
+
+1. You may not directly include art, sound, music, writing or other data
+   created before the competition, except under the conditions of clause 6.2.
+   You may however use it as a point of reference, ie. as "concept art".
+
+2. You may inclue graphics, sound and music created before the competition if
+
+   a. They were published to a public website that has existed for least 30
+      days before the competition; and,
+   b. the work is licensed under an OSI-approved or Creative Commons
+      license, or is public domain; and,
+   c. you use only the files published. For example, you may not
+      publish only PNG files but use source SVG files in your game.
+
 Any diagrams and concept art created during the theme voting week should not
-form part of your submission.
+form part of your submission unless clearly marked as concept art.
 
 There should be absolutely no breach of licensing. You can't just
 cut-n-paste in artwork from The Simpsons (TM).
 
-First suggestion, try a web search for "free fonts" or "free clip-art"
-etc.
-
-A list of good, free art resources go to the PyGame website wiki (and
-contribute!) at http://www.pygame.org/wiki/resources
+The :doc:`resources` page has a list of resources you can use. Also check out
+the `PyGame wiki's game resources page <http://www.pygame.org/wiki/resources>`_.
 
 
 .. _final-submission:
@@ -197,46 +194,39 @@ contribute!) at http://www.pygame.org/wiki/resources
 ------------------------
 
 You may upload your final at any time during the challenge. You may even
-upload multiple final submissions - but only the last one will actually
+upload multiple final submissions. Only the last one will actually
 be used for judging.
 
 Your entry **must** include all code and data required for running, and
 instructions about how to run the entry.
 
-Your entry **must** include all source code. You retain ownership of all source
-code and artwork you produce. The Free Software Foundation has a handy
-`page of free software licenses`__ which may help you figure out how to
-license your entry.
-
-__ http://www.fsf.org/licensing/licenses
-
-Your game's license must allow for PyWeek to redistribute your
-game and its source through the PyWeek website (http://pyweek.org/),
-BitTorrent and any other protocol deemed necessary by the PyWeek
-organisers.
-
 See :doc:`packaging` for some guidelines about how to package your entry.
 
 
-8. Allowed Documentation
-------------------------
+8. Licensing
+------------
 
-Any online documentation may be used. This encompasses anything that
-might be viewed in a web browser and found by Google by any of the
-challenge entrants.
+1. You retain all copyrights to entries you upload.
 
-If online documentation includes code snippets, that's ok, but do not
-copy-and-paste whole example games.
+2. By uploading an entry you warrant that you have the right to distribute all
+   materials in the entry under the terms laid out in this section of the
+   rules.
 
-If the online documentation is only code (ie. it's deep within a GitHub repo,
-or similar) then it's not OK - see Rule 2.
+2. By submitting an entry to PyWeek you grant a transferrable, irrevocable
+   license to redistribute, copy and run your entry without modification,
+   and to distribute unmodified screenshots of the entry, provided no fee is
+   charged.
 
-Any existing code you've written should be considered out-of-bounds for
-the duration of the challenge.
+3. You may include license terms in your entry; these will be considered an
+   alternative set of terms to those defined by clause 8.2.
 
 
 9. Target platform
 ------------------
+
+This is a Python programming challenge. However, you may include code written
+in supporting languages (eg. C/C++ or Rust libraries, Javascript/HTML in web
+pages, and so on), if that code does not implement "game logic".
 
 Entries must run using the latest version of Python. Entries must not require
 end-of-life versions of Python. See `the Python Dev Guide
@@ -255,3 +245,9 @@ If you add features to your library leading up to the challenge, please take
 great care to ensure that other entrants have a reasonable opportunity to
 learn about and use these features. This includes updating the documentation
 and announcing the feature in a changelog or release announcement.
+
+
+10. Code of Conduct
+-------------------
+
+All PyWeek entrants must abide by the PyWeek :doc:`coc`.
