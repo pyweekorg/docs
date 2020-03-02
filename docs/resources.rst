@@ -67,6 +67,7 @@ Video Tutorials
 
 * `Kenney <https://kenney.nl/>`_ has a vast library of cute 3D sprites, as well
   as 3D models and sound files.
+* `OpenGameArt <https://opengameart.org/>`_ has 2D art, 3D models and textures.
 
 
 3D Models
@@ -82,6 +83,7 @@ Textures
 
 * `CC0Textures.com <https://CC0Textures.com>`_ - public domain PBR texture
   sets 
+* `Texture Haven <https://texturehaven.com/>`_
 
 
 Content Creation
@@ -94,10 +96,12 @@ Content Creation
 -  `Pixen <http://pixenapp.com/>`__ is a really nice pixel art app for
    OS X but it doesn't have the same awesome tileset creation mode as
    Pyxeledit.
+-  `Tiled Map Editor <https://www.mapeditor.org/>`_
 -  A collection of links to `game assets and various game-dev related
    tools <https://game-assets.zeef.com/andre.antonio.schmitz>`__.Here's
    a list of `art asset creation
    tools <http://gamedev.stackexchange.com/questions/82/tools-for-creating-assets>`__
+
 
 Music
 -----
@@ -105,6 +109,19 @@ Music
 -   http://ccmixter.org/
 -  `Royalty free music by inkaudio <http://www.inkaudio.com>`__
 -  `Random music generator <http://fakemusicgenerator.com>`__
+-  `Filmmusic.io <https://filmmusic.io/>`_ creative commons music
+
+
+Sound Effects
+-------------
+
+* `Freesound <https://freesound.org/>`_
+
+
+Fonts
+-----
+
+* `The Font Library <https://fontlibrary.org/>`_
 
 
 Icons
