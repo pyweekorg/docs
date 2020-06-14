@@ -97,6 +97,8 @@ can be used for building games, though it is not specifically designed for this
 purpose.
 
 
+.. _panda3d:
+
 |panda| Panda3D
 ---------------
 
@@ -121,11 +123,42 @@ tile, sound and music editors, and a packaging tool to produce standalone
 executables.
 
 
+|wasabi2d| Wasabi2D
+-------------------
+
+.. |wasabi2d| image:: _static/wasabi2d.png
+
+:Website: https://github.com/lordmauve/wasabi2d
+:Documentation: https://wasabi2d.readthedocs.io/en/stable/
+
+A powerful 2D graphics engine with coroutines and shaders, built on ModernGL
+and Pygame.
+
+
+|ursina| Ursina
+---------------
+
+.. |ursina| image:: _static/ursina.png
+
+:Website: https://www.ursinaengine.org/
+
+A 2D/3D engine built on top of Panda3D_.
+
+
+|pursuedpybear| PursuedPyBear
+-----------------------------
+
+.. |pursuedpybear| image:: _static/pursuedpybear.png
+
+:Website: https://ppb.dev/
+:Documentation: https://ppb.readthedocs.io/en/stable/
+
+An education-friendly 2D game framework built on PySDL2.
+
+
 Others
 ------
 
-* `wasabi2d <https://github.com/lordmauve/wasabi2d>`_ - a 2D graphics framework
-  built on ModernGL and Pygame.
 * `pysdl2-harness <https://github.com/reidrac/pysdl2-harness>`__ -
   some simple classes to make working with pysdl2 easier. Somewhat
   inspired by pyglet and trying to hide all the "ugly" stuff of SDL2
