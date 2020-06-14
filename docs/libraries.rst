@@ -72,8 +72,10 @@ Cocos2D, built on Pyglet, offers higher level primitives, such as scene
 transitions and sprites on which animations can be queued.
 
 
-Arcade
-------
+|arcade| Arcade
+---------------
+
+.. |arcade| image:: _static/arcade.png
 
 :Website: http://arcade.academy/index.html
 
