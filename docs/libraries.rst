@@ -23,7 +23,9 @@ Add-ons:
 
 * `pygame-text <https://github.com/cosmologicon/pygame-text>`_ - simple text
   rendering in Pygame, with a range of layout and styling options
-* `pgu <http://code.google.com/p/pgu/>`_
+* `PGU <https://github.com/parogers/pgu>`_ - a collection of utility code for
+  working with Pygame, including a complete UI framework and basic HTML
+  rendering.
 * `thorpy <http://thorpy.org>`__ for pygame GUIs
 * `Albow <http://www.cosc.canterbury.ac.nz/greg.ewing/python/Albow/>`__ -
   widget set for GUIs
@@ -52,11 +54,11 @@ loop and tweening.
 :Documentation: https://pyglet.readthedocs.io/
 
 pyglet provides hardware accelerated rendering for sprites, drawing text,
-audio playback, and joystick support. Sprites can be static or animated, 
+audio playback, and joystick support. Sprites can be static or animated,
 rotated, scaled, and support transparency. pyglet is built on OpenGL,
 so the full OpenGL bindings are also availble for use in 3D games.
 
-FFmpeg_ is optionally supported for compressed audio and video playback. 
+FFmpeg_ is optionally supported for compressed audio and video playback.
 
 .. _FFmpeg: https://pyglet.readthedocs.io/en/stable/programming_guide/media.html#ffmpeg-installation
 
@@ -206,7 +208,3 @@ GUI
 * `pyimgui <https://pyimgui.readthedocs.io>`_ - Python bindings for the
   *dear Imgui* UI framework - works with several OpenGL based frameworks and
   also Pygame.
-
-* `PGU <https://github.com/parogers/pgu>`_ - a collection of utility code for
-  working with Pygame, including a complete UI framework and basic HTML
-  rendering.
