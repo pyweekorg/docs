@@ -16,10 +16,15 @@ Why participate in PyWeek? There are many reasons:
 
 Visit https://pyweek.org/ to participate.
 
+
 .. tip::
 
-    Join our `Discord Server <https://discord.gg/narPHDq>`_ to chat with other
-    PyWeek participants. (No signup required!)
+    .. image:: _static/python-discord.png
+        :align: right
+
+    PyWeek is partnered with the Python Discord server. `Join us
+    <https://discord.gg/python>`_ in the ``#pyweek`` channel to chat with other
+    PyWeekers and follow game progress and announcement.
 
 
 .. toctree::
