@@ -104,7 +104,9 @@ What do do during the challenge
    level transition screens, game over screen (for example 1/5 of the total
    time)
 4. Upload screenshots and put them in diary entries!
-5. Hang around in the IRC channel, irc.freenode.net channel #pyweek
+5. Hang around in the `Python Discord <https://discord.gg/python>`_. Our
+   dedicated channel is ``#pyweek`` but there will be other channels available
+   during the competition.
 
 
 How to submit your entry
@@ -158,7 +160,7 @@ When does PyWeek run?
 ---------------------
 
 PyWeek runs every 6 months in Spring/Autumn. This usually works out to be
-around the first week of April and September.
+April and September.
 
 
 When can I sign up?
@@ -231,7 +233,7 @@ PyWeek was conceived and originally run by Richard Jones. PyWeek number
 
 Pyweek 22-24 were run by Blake O'Hare.
 
-Pyweek 25-27 were run by Daniel Pope.
+Pyweek 25-30 were run by Daniel Pope.
 
 Various other people have helped out with the website over the years,
 including Lucio Torre, Juan Martinez, and Lex Toumbourou.
