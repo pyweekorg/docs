@@ -27,7 +27,7 @@ All members of a team get to vote (though not for their own team), enter diary
 entries and upload files. People may join more than one team.
 
 During the challenge, competitors are encouraged to post diary entries (diaries
-are supplied as part of the challenge), and hang out in
+are supplied as part of the challenge), and hang out on
 `Discord <https://discord.gg/python>`_ (channel ``#pyweek``).
 
 By signing up to the challenge, you are agreeing to abide by
