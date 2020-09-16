@@ -2,7 +2,7 @@
 Conditions of Use
 =================
 
-:revision date: 2019-02-17
+:revision date: 2020-09-16
 
 
 1. About these Conditions
@@ -35,10 +35,7 @@ harrassment of any kind.
 person is allowed to log in under a single username and password. You
 must never provide your password to anybody else.
 
-3.2 You must not mislead the PyWeek Organisers about your true identity.
-All name and address details entered into this environment must be true,
-accurate and up to date. These details will not be disclosed to other
-people in this environment.
+3.2 You must not assume the identity of another living person.
 
 3.3 Material posted to your home page must not infringe another person
 or organisation's copyright, patent, trademark or trade secret. It must
