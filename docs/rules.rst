@@ -20,7 +20,7 @@ The PyWeek challenge:
 ------------------------------------
 
 You may either enter as an individual or as a team with as many members as
-you like. Individual and team and team entries will be judged separately and
+you like. Individual and team entries will be judged separately and
 a winner announced in each category.
 
 All members of a team get to vote (though not for their own team), enter diary
