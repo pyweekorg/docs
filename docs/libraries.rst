@@ -170,6 +170,25 @@ Others
 * `ModernGL <https://github.com/cprogrammer1994/ModernGL>`__ - a PyOpenGL replacement
 
 
+Geometry/Vectors
+================
+
+* pygame.math_ - *Mutable* 2D and 3D Vector classes implemented in C.
+* wasabigeom_ - *Immutable* 2D Vector class and other 2D geometric primitives,
+  implemented in Cython.
+* pyrr_ - comprehensive suite of 3D geometry operations based on numpy,
+  including Vectors, Matrixes, Quaternions and more. No 2D.
+* euclid_ - *Mutable* 2D and 3D Vector and geometry classes, in pure Python.
+* vec_ - *Immutable* 2D Vector class that preserves polar/cartesian
+  coordinates, implemented in pure Python.
+
+.. _pygame.math: https://www.pygame.org/docs/ref/math.html
+.. _wasabigeom: https://github.com/lordmauve/wasabigeom
+.. _pyrr: https://pyrr.readthedocs.io/en/latest/
+.. _euclid: https://pypi.org/project/euclid/
+.. _vec: https://github.com/larryhastings/vec
+
+
 Physics
 =======
 
