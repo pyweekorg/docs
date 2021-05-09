@@ -220,6 +220,12 @@ Others
 * `PyBox2D <https://github.com/pybox2d/pybox2d>`_ - 2D physics. This is now
   much less well maintained than PyMunk, and the documentation is lacking.
 
+Sound
+=====
+
+* `pyfxr <https://github.com/lordmauve/pyfxr>`_ - a library for generating
+  sound effects directly in Python code, and a GUI to explore the sounds you
+  can generate. Compatible with Pygame, Pyglet, and more.
 
 GUI
 ===
