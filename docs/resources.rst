@@ -68,6 +68,8 @@ Video Tutorials
 * `Kenney <https://kenney.nl/>`_ has a vast library of cute 3D sprites, as well
   as 3D models and sound files.
 * `OpenGameArt <https://opengameart.org/>`_ has 2D art, 3D models and textures.
+* `Game Icons <https://game-icons.net/>`_ - a collection of icons representing
+  video game tropes.
 
 
 3D Models
