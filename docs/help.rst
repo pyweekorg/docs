@@ -117,9 +117,6 @@ What to submit as your entry
 
 Consider the advice at http://www.pygame.org/wiki/distributing
 
-**We recommend you download** the :download:`Skellington 1.9 <_static/skellington-1.9.zip>` package and use that as the starting-point
-for your game.
-
 For this challenge,
 
 1. Always use either ZIP or tar / gzip to bundle your entry.
