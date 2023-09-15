@@ -4,7 +4,7 @@
 #
 # This file does only contain a selection of the most common options. For a
 # full list see the documentation:
-# http://www.sphinx-doc.org/en/master/config
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Path setup --------------------------------------------------------------
 
@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'PyWeek'
-copyright = u'2019, Daniel Pope'
+copyright = u' 2019, Daniel Pope'
 author = u'Daniel Pope'
 
 # The short X.Y version
@@ -58,7 +58,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -107,7 +107,7 @@ html_show_sourcelink = False
 
 
 
-# -- Options for HTMLHelp output ---------------------------------------------
+# -- Options for HTML Help output ---------------------------------------------
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'PyWeekdoc'
@@ -164,7 +164,7 @@ texinfo_documents = [
 ]
 
 
-# -- Options for Epub output -------------------------------------------------
+# -- Options for EPUB output -------------------------------------------------
 
 # Bibliographic Dublin Core info.
 epub_title = project

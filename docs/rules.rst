@@ -2,7 +2,7 @@
 The Rules
 ---------
 
-:revision date: 2020-02-06
+:Revision date: 2020-02-06
 
 
 The PyWeek challenge:
@@ -28,21 +28,21 @@ entries and upload files. People may join more than one team.
 
 During the challenge, competitors are encouraged to post diary entries (diaries
 are supplied as part of the challenge), and hang out on
-`Discord <https://discord.gg/python>`_ (channel ``#pyweek``).
+the `Python Discord server <https://discord.com/invite/python>`_ (channel ``#pyweek-game-jam``).
 
 By signing up to the challenge, you are agreeing to abide by
 the system :doc:`conditions of use <conditions>`.
 
 
-2. Entries are to be written "from scratch"
+2. Entries are to be written “from scratch”
 -------------------------------------------
 
 The intent of this rule is to provide a level playing-field for all entrants.
 The short version is this: any resources you prepare before the competition
 must be made both *available* and *accessible* to all other entrants,
-regardless of whether they were created by you or by others. "Available" means
+regardless of whether they were created by you or by others. “Available” means
 that they must be published in good time, in a place where other entrants might
-discover them. "Accessible" means making sure others are not prevented from
+discover them. “Accessible” means making sure others are not prevented from
 using them once aware of them.
 
 1. You may not use code created before the competition except under the
@@ -56,7 +56,7 @@ using them once aware of them.
       GitHub, or this handbook for at least 30 days before the competition;
       and,
    b. they are licensed under an `OSI-approved open source license
-      <https://opensource.org/licenses>`_, or are public domain; and,
+      <https://opensource.org/licenses/>`_, or are public domain; and,
    c. the index page (eg. README/PyPI page) contains, or links to,
       a documentation resource that describes the features of the library and
       contains thorough API documentation; and,
@@ -81,7 +81,7 @@ using them once aware of them.
 ---------------------------
 
 The challenge starts 00:00 UTC Sunday and finishes 7 days later at
-00:00UTC Sunday.
+00:00 UTC Sunday.
 
 Work done on entries before this time would be considered cheating.
 
@@ -90,7 +90,7 @@ file(s). This is not extra development time. Failure to upload at the
 last minute of that additional 24 hours will be met with zero leniency.
 The server will overload if you try. You have been warned.
 
-If your game crashes it's on your head. You should allow time for
+If your game crashes it’s on your head. You should allow time for
 testing well before the deadline.
 
 
@@ -140,8 +140,8 @@ An overall score will be calculated as the average of these scores.
 Gold, silver and bronze awards will be given for each of these categories; the
 overall score will decide the overall winner of the competition.
 
-If the game did not work for a judge, they may mark the game "Did Not
-Work". Their ratings in the categories above will not count towards its
+If the game did not work for a judge, they may mark the game “Did Not
+Work”. Their ratings in the categories above will not count towards its
 final ratings tally.
 
 Finally, competitors may vote that a submission be disqualified for one
@@ -152,8 +152,8 @@ of three reasons:
 - Entrant cheated.
 
 A submission that gets more than 50% disqualification votes is not
-eligible for any prizes, though they'll still appear in the rankings
-("do'h, if only I'd followed the rules!")
+eligible for any prizes, though they’ll still appear in the rankings
+(“do’h, if only I’d followed the rules!”)
 
 
 6. Existing artwork, music and sound effects may be used
@@ -161,18 +161,18 @@ eligible for any prizes, though they'll still appear in the rankings
 
 As with the use of existing codebases, the intention is that all
 entrants start with a level playing field in artwork too. This means you
-shouldn't develop artwork beforehand that you intend to use during the
+shouldn’t develop artwork beforehand that you intend to use during the
 challenge *unless* you also make that artwork freely available to all
 other entrants.
 
 
 1. You may not directly include art, sound, music, writing or other data
    created before the competition, except under the conditions of clause 6.2.
-   You may however use it as a point of reference, ie. as "concept art".
+   You may however use it as a point of reference, ie. as “concept art”.
 
-2. You may inclue graphics, sound and music created before the competition if
+2. You may include graphics, sound and music created before the competition if
 
-   a. They were published to a public website that has existed for least 30
+   a. They were published to a public website that has existed for at least 30
       days before the competition; and,
    b. the work is licensed under an OSI-approved or Creative Commons
       license, or is public domain; and,
@@ -182,11 +182,11 @@ other entrants.
 Any diagrams and concept art created during the theme voting week should not
 form part of your submission unless clearly marked as concept art.
 
-There should be absolutely no breach of licensing. You can't just
-cut-n-paste in artwork from The Simpsons (TM).
+There should be absolutely no breach of licensing. You can’t just
+cut-n-paste in artwork from *The Simpsons* ™.
 
 The :doc:`resources` page has a list of resources you can use. Also check out
-the `PyGame wiki's game resources page <http://www.pygame.org/wiki/resources>`_.
+the `PyGame wiki’s game resources page <http://www.pygame.org/wiki/resources>`_.
 
 
 .. _final-submission:
@@ -213,21 +213,21 @@ See :doc:`packaging` for some guidelines about how to package your entry.
    materials in the entry under the terms laid out in this section of the
    rules.
 
-2. By submitting an entry to PyWeek you grant a transferrable, irrevocable
+3. By submitting an entry to PyWeek you grant a transferrable, irrevocable
    license to redistribute, copy and run your entry without modification,
    and to distribute unmodified screenshots of the entry, provided no fee is
    charged.
 
-3. You may include license terms in your entry; these will be considered an
-   alternative set of terms to those defined by clause 8.2.
+4. You may include license terms in your entry; these will be considered an
+   alternative set of terms to those defined by clause 8.3.
 
 
 9. Target platform
 ------------------
 
 This is a Python programming challenge. However, you may include code written
-in supporting languages (eg. C/C++ or Rust libraries, Javascript/HTML in web
-pages, and so on), if that code does not implement "game logic".
+in supporting languages (eg. C/C++ or Rust libraries, JavaScript/HTML in web
+pages, and so on), if that code does not implement “game logic”.
 
 Entries must run using the latest version of Python. Entries must not require
 end-of-life versions of Python. See `the Python Dev Guide
