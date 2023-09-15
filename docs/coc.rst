@@ -1,7 +1,7 @@
 Code of Conduct
 ===============
 
-We want all users to have an enjoyable experience whe participating in the
+We want all users to have an enjoyable experience when participating in the
 PyWeek challenge and community. All users are expected to abide by this Code
 of Conduct. If necessary, the PyWeek organisers will act to enforce it.
 

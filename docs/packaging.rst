@@ -1,5 +1,5 @@
 ===================
-Packaging your game
+Packaging Your Game
 ===================
 
 When creating a game for PyWeek, you will want to be sure that it can be played
@@ -15,7 +15,7 @@ According to :ref:`rule 7 <final-submission>`, your game must include all
 source code.
 
 This is the first thing you should do. Packaging a game for various platforms
-(eg. using PyInstaller) is entirely optional - including the source is not.
+(eg. using PyInstaller) is entirely optional — including the source is not.
 
 It is recommended to create a ZIP file that contains your source code. ZIP
 files can be read on almost all operating systems with standard software.
@@ -36,7 +36,7 @@ So if my game is *Camel Breeder*, I might create a ZIP file called
 
 .. caution::
 
-    Don't create a `Zip bomb`_, which creates many files in the directory
+    Don’t create a `Zip bomb`_, which creates many files in the directory
     where you unzip it.
 
 
@@ -108,7 +108,7 @@ each target only one operating system, and seem to be unmaintained (as of
 2019).
 
 
-.. _PyInstaller: https://www.pyinstaller.org/
-.. __: https://pyinstaller.readthedocs.io/en/stable/
-.. _cx_freeze: https://cx-freeze.readthedocs.io/en/latest/index.html
+.. _PyInstaller: https://pyinstaller.org/
+.. __: https://pyinstaller.org/
+.. _cx_freeze: https://cx-freeze.readthedocs.io/
 .. _py2exe: http://www.py2exe.org/

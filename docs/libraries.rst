@@ -8,10 +8,10 @@ Graphics/Window/Sound/UI
 |Pygame|
 --------
 
-.. |Pygame| image:: _static/pygame.png
+.. |Pygame| image:: _static/pygame.webp
 
-:Website: http://pygame.org/
-:Documentation: https://www.pygame.org/docs/index.html
+:Website: https://www.pygame.org/
+:Documentation: https://www.pygame.org/docs/
 
 Pygame is principally bindings for SDL (Simple DirectMedia Layer) for Python.
 As such it has limited support for GPU-accelerated rendering, and any support
@@ -26,20 +26,20 @@ Add-ons:
 * `PGU <https://github.com/parogers/pgu>`_ - a collection of utility code for
   working with Pygame, including a complete UI framework and basic HTML
   rendering.
-* `thorpy <http://thorpy.org>`__ for pygame GUIs
-* `Albow <http://www.cosc.canterbury.ac.nz/greg.ewing/python/Albow/>`__ -
+* `thorpy <https://thorpy.org/>`__ for pygame GUIs
+* `Albow <https://www.csse.canterbury.ac.nz/greg.ewing/python/Albow/>`__ -
   widget set for GUIs
 
 
 |pgzero| Pygame Zero
 --------------------
 
-.. |pgzero| image:: _static/pgzero.png
+.. |pgzero| image:: _static/pgzero.webp
 
-:Website: https://pygame-zero.readthedocs.io/en/stable/
+:Website: https://pygame-zero.readthedocs.io/
 
-Pygame Zero is "training wheels for Pygame", intended to make it simpler for
-complete beginner to create games in Python using Pygame.
+Pygame Zero is “training wheels for Pygame”, intended to make it simpler for
+a complete beginner to create games in Python using Pygame.
 
 Even so, it also has a number of feature additions such as a built-in event
 loop and tweening.
@@ -48,54 +48,42 @@ loop and tweening.
 |pyglet| Pyglet
 ---------------
 
-.. |pyglet| image:: _static/pyglet.png
+.. |pyglet| image:: _static/pyglet.webp
 
-:Website: http://pyglet.org/
+:Website: https://pyglet.org/
 :Documentation: https://pyglet.readthedocs.io/
 
 pyglet provides hardware accelerated rendering for sprites, drawing text,
 audio playback, and joystick support. Sprites can be static or animated,
 rotated, scaled, and support transparency. pyglet is built on OpenGL,
-so the full OpenGL bindings are also availble for use in 3D games.
+so the full OpenGL bindings are also available for use in 3D games.
 
 FFmpeg_ is optionally supported for compressed audio and video playback.
 
-.. _FFmpeg: https://pyglet.readthedocs.io/en/stable/programming_guide/media.html#ffmpeg-installation
-
-
-|coco| Cocos2D
---------------
-
-.. |coco| image:: _static/cocos2d.png
-
-:Website: http://python.cocos2d.org/
-:Documentation: http://python.cocos2d.org/doc/index.html
-
-Cocos2D, built on Pyglet, offers higher level primitives, such as scene
-transitions and sprites on which animations can be queued.
+.. _FFmpeg: https://pyglet.readthedocs.io/en/latest/programming_guide/media.html#ffmpeg-installation
 
 
 |arcade| Arcade
 ---------------
 
-.. |arcade| image:: _static/arcade.png
+.. |arcade| image:: _static/arcade.webp
 
-:Website: http://arcade.academy/index.html
+:Website: https://api.arcade.academy/
 
 Also built on Pyglet, this is a higher-level games framework with extensive
 documentation and examples.
 
 The author has written a `corresponding book
-<https://arcade-book.readthedocs.io/en/latest/>`_ on learning to program with
+<https://learn.arcade.academy/>`_ on learning to program with
 Arcade.
 
 
 |kivy| Kivy
 -----------
 
-.. |kivy| image:: _static/kivy.png
+.. |kivy| image:: _static/kivy.webp
 
-:Website: http://kivy.org/
+:Website: https://kivy.org/
 
 Kivy is a cross-platform multimedia UI system built on OpenGL ES. As such it
 can be used for building games, though it is not specifically designed for this
@@ -107,7 +95,7 @@ purpose.
 |panda| Panda3D
 ---------------
 
-.. |panda| image:: _static/panda3d.png
+.. |panda| image:: _static/panda3d.webp
 
 :Website: https://www.panda3d.org/
 :Documentation: https://www.panda3d.org/manual/
@@ -119,7 +107,7 @@ Disney.
 |pyxel| Pyxel
 -------------
 
-.. |pyxel| image:: _static/pyxel.png
+.. |pyxel| image:: _static/pyxel.webp
 
 :Website: https://github.com/kitao/pyxel
 
@@ -131,10 +119,10 @@ executables.
 |wasabi2d| Wasabi2D
 -------------------
 
-.. |wasabi2d| image:: _static/wasabi2d.png
+.. |wasabi2d| image:: _static/wasabi2d.webp
 
 :Website: https://github.com/lordmauve/wasabi2d
-:Documentation: https://wasabi2d.readthedocs.io/en/stable/
+:Documentation: https://wasabi2d.readthedocs.io/
 
 A powerful 2D graphics engine with coroutines and shaders, built on ModernGL
 and Pygame.
@@ -143,7 +131,7 @@ and Pygame.
 |ursina| Ursina
 ---------------
 
-.. |ursina| image:: _static/ursina.png
+.. |ursina| image:: _static/ursina.webp
 
 :Website: https://www.ursinaengine.org/
 
@@ -153,10 +141,10 @@ A 2D/3D engine built on top of Panda3D_.
 |pursuedpybear| PursuedPyBear
 -----------------------------
 
-.. |pursuedpybear| image:: _static/pursuedpybear.png
+.. |pursuedpybear| image:: _static/pursuedpybear.webp
 
 :Website: https://ppb.dev/
-:Documentation: https://ppb.readthedocs.io/en/stable/
+:Documentation: https://ppb.readthedocs.io/
 
 An education-friendly 2D game framework built on PySDL2.
 
@@ -166,8 +154,8 @@ Others
 
 * `pysdl2-harness <https://github.com/reidrac/pysdl2-harness>`__ -
   some simple classes to make working with pysdl2 easier. Somewhat
-  inspired by pyglet and trying to hide all the "ugly" stuff of SDL2
-* `ModernGL <https://github.com/cprogrammer1994/ModernGL>`__ - a PyOpenGL replacement
+  inspired by pyglet and trying to hide all the “ugly” stuff of SDL2
+* `ModernGL <https://github.com/moderngl/moderngl>`__ - a PyOpenGL replacement
 
 
 Geometry/Vectors
@@ -184,7 +172,7 @@ Geometry/Vectors
 
 .. _pygame.math: https://www.pygame.org/docs/ref/math.html
 .. _wasabigeom: https://github.com/lordmauve/wasabigeom
-.. _pyrr: https://pyrr.readthedocs.io/en/latest/
+.. _pyrr: https://pyrr.readthedocs.io/
 .. _euclid: https://pypi.org/project/euclid/
 .. _vec: https://github.com/larryhastings/vec
 
@@ -196,10 +184,9 @@ Physics
 |Pymunk|
 --------
 
-.. |Pymunk| image:: _static/pymunk.png
+.. |Pymunk| image:: _static/pymunk.webp
 
-:Website: http://www.pymunk.org/en/latest/
-:Documentation: http://www.pymunk.org/en/latest/overview.html
+:Website: http://www.pymunk.org/
 
 Pymunk is a complete 2D physics engine with a very Pythonic API and good
 documentation. Pymunk is based on Chipmunk, a fast physics engine written in C.
@@ -230,6 +217,6 @@ Sound
 GUI
 ===
 
-* `pyimgui <https://pyimgui.readthedocs.io>`_ - Python bindings for the
-  *dear Imgui* UI framework - works with several OpenGL based frameworks and
+* `pyimgui <https://pyimgui.readthedocs.io/>`_ - Python bindings for the
+  *dear Imgui* UI framework — works with several OpenGL based frameworks and
   also Pygame.
