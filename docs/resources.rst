@@ -43,7 +43,7 @@ Articles and tutorials
 - Al Sweigert's `Video Game Mechanics Mixer
   <http://inventwithpython.com/blog/2012/07/30/need-a-game-idea-a-list-of-game-mechanics-and-a-random-mechanic-mixer/>`__.
 - "`Designing a retro pixel-art
-  tile-set <http://www.wildbunny.co.uk/blog/2012/03/01/designing-a-retro-pixel-art-tile-set/>`__"
+  tile-set <https://web.archive.org/web/20200114124523/https://wildbunny.co.uk/blog/2012/03/01/designing-a-retro-pixel-art-tile-set/>`__"
 - `Evaluating Game Mechanics For Depth
   <http://www.gamasutra.com/view/feature/134273/evaluating_game_mechanics_for_depth.php?print=1>`_ -
   This article is probably one of the most useful I've ever read and is
