@@ -19,11 +19,11 @@ Visit https://pyweek.org/ to participate.
 
 .. tip::
 
-    .. image:: _static/python-discord.png
+    .. image:: _static/python-discord.webp
         :align: right
 
     PyWeek is partnered with the Python Discord server. `Join us
-    <https://discord.gg/python>`_ in the ``#pyweek`` channel to chat with other
+    <https://discord.com/invite/python>`_ in the ``#pyweek-game-jam`` channel to chat with other
     PyWeekers and follow game progress and announcement.
 
 

@@ -17,17 +17,17 @@ This will be interesting to other PyWeek participants, but will also give you
 the chance, once the competition has ended, to look back and see how your game
 evolved over the course of a week.
 
-Screenshots can be uploaded to the PyWeek website via the "Upload File" link
+Screenshots can be uploaded to the PyWeek website via the “Upload File” link
 on the Entry page.
 
 
 Taking Screenshots
 ==================
 
-While you can take screenshots using a generic screen grab tool, it's not
-always quick and easy - it can require switching focus away from your game.
+While you can take screenshots using a generic screen grab tool, it’s not
+always quick and easy — it can require switching focus away from your game.
 
-You can take more and better screenshots if you set up a key - I suggest F12 -
+You can take more and better screenshots if you set up a key — I suggest F12 —
 to save a new screenshot under a unique file name.
 
 Fortunately doing this from Python code is pretty formulaic.
@@ -65,7 +65,7 @@ Pyglet
 ------
 
 In OpenGL, you have to read back the colour buffer to an image and save that.
-As you generally don't want the colour buffer's alpha channel to be saved if it
+As you generally don’t want the colour buffer’s alpha channel to be saved if it
 has one, there are a couple of OpenGL calls to force every pixel to be read as
 opaque. Pyglet can handle reading and saving the colour buffer though.
 

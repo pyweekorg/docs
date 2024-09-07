@@ -1,16 +1,34 @@
 @font-face {
     font-family: RosesAreRed;
-    src: url(roses-are-ff0000.woff) format('woff');
+    src: url(roses-are-ff0000.woff2) format('woff2');
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: arial, helvetica, sans-serif;
 }
 
 @media screen {
     h1.logo {
         display: none;
     }
+}
+
+/* consistent top heading for small screens */
+@media screen and (max-width: 875px) {
+    h1.logo {
+        display: block;
+        position: absolute;
+        top: 30px;
+    }
+    h1.logo a {
+        color: #004b6b;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    h1.logo a:after {
+        content: ' documentation';
+    }
+    .document { padding-top: 44px; }
 }
 
 h1, h2, h3 {
@@ -22,6 +40,14 @@ h2 a,
 h3 a {
     text-decoration: none;
 }
+
+/* alabaster theme sets a min-width on .body which breaks layout on _a lot_ of small screens; there is no reason for this */
+div.body {
+    min-width: auto !important;
+}
+
+/* list-style-position: inside; better except for https://github.com/sphinx-doc/sphinx/issues/2258 */
+ul { margin-left: 1em; }
 
 div.body h1 {
     font-size: 20pt;
