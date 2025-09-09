@@ -2,7 +2,7 @@
 The Rules
 ---------
 
-:revision date: 2020-02-06
+:revision date: 2025-09-09
 
 
 The PyWeek challenge:
