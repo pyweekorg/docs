@@ -76,6 +76,20 @@ using them once aware of them.
       as clause 2.2.d, unless the logic is provided as an example and you
       replace it.
 
+4. You may use AI development tools without restriction.
+
+   AI-powered development tools (such as code completion, code generation,
+   refactoring assistants, and debugging aids) are freely permitted during
+   the competition. This includes but is not limited to tools like GitHub
+   Copilot, ChatGPT, Claude, and other AI coding assistants.
+
+   This policy recognizes that AI has become commoditized with widely
+   available open source models, and AI assistance has rapidly become a
+   standard part of modern software development. Since the rules do not
+   generally restrict development tools (such as IDEs, debuggers, or
+   linters), AI tools are treated similarly as productivity aids rather
+   than pre-written code resources.
+
 
 3. The time limit is 1 week
 ---------------------------
