@@ -132,9 +132,3 @@ Icons
 -  `Icons for everything <https://thenounproject.com/>`__ - royalty free
    icons (over 1 million, it claims)
 
-
-Finding Collaborators
----------------------
-
-* `Teamups <http://www.teamups.net/>`__
-
